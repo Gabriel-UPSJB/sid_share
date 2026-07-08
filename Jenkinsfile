@@ -5,8 +5,8 @@ node {
     }
 
     stage('4.3. Automatización de Builds/Pruebas') {
-        // Usamos barras invertidas dobles y SIN comillas para evitar el error de sintaxis de Windows
-        bat 'echo sdk.dir=C:\\\\Users\\\\Gabriel Alvarado\\\\AppData\\\\Local\\\\Android\\\\Sdk > local.properties'
+        // Apuntamos a la nueva ruta pública libre de restricciones de Windows
+        bat 'echo sdk.dir=C:\\\\Sdk > local.properties'
         bat 'gradlew.bat clean assembleDebug testDebugUnitTest'
     }
 
