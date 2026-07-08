@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".status_product_rep">
+
+    <!--fondo-->
+
+    <!--fondo_tipo_laptop-->
+
+    <!--ID_GIA-->
+
+    <!--CANCELAR_PEDIDO-->
+
+
+    <!--SubFondo-->
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="598dp"
+        android:layout_height="947dp"
+        android:layout_marginStart="-300dp"
+        android:layout_marginTop="-160dp"
+        android:layout_marginEnd="-300dp"
+        android:layout_marginBottom="-200dp"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:fadeScrollbars="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398"
+        app:srcCompat="@drawable/gemini_generated_image_mp4l4smp4l4smp4l" />
+
+    <ImageView
+        android:id="@+id/SubFondo"
+        android:layout_width="395dp"
+        android:layout_height="89dp"
+        app:background="@color/blanco_transparente"
+        android:background="@color/blanco_transparente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <ImageView
+        android:id="@+id/subFondo2"
+        android:layout_width="172dp"
+        android:layout_height="85dp"
+        app:background="@color/blanco_transparente"
+        android:background="@color/blanco_transparente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <ImageView
+        android:id="@+id/subFondo3"
+        android:layout_width="179dp"
+        android:layout_height="88dp"
+        app:background="@color/blanco_transparente"
+        android:background="@color/blanco_transparente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322" />
+
+    <ImageView
+        android:id="@+id/subFondo4"
+        android:layout_width="340dp"
+        android:layout_height="314dp"
+        android:background="@color/blanco_transparente"
+        app:background="@color/blanco_transparente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.709" />
+
+    <TextView
+        android:id="@+id/ID_GIA"
+        android:layout_width="170dp"
+        android:layout_height="37dp"
+        android:text="ID: 00000000"
+        android:textAlignment="center"
+        android:textColor="#390000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <ImageView
+        android:id="@+id/SubFondo2"
+        android:layout_width="396dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19"
+        app:srcCompat="@color/white" />
+
+    <SeekBar
+        android:id="@+id/ESTADO_REAPARACION"
+        android:layout_width="356dp"
+        android:layout_height="31dp"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:enabled="false"
+        android:max="100"
+        android:progress="80"
+        android:progressTint="#FF0000"
+        android:thumb="@android:drawable/ic_media_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <!--Nombre_Ususario-->
+
+    <!--TIPO_ARTICULO-->
+
+    <!--MODELO_ARTICULO-->
+
+    <!--NUMERO_DE_SERIE_ARTICULO-->
+
+    <!--AVERIA_ARTICULO-->
+
+    <!--SOLUCION_ARTICULO-->
+
+    <!--NOTA_ARTICULO-->
+
+    <TextView
+        android:id="@+id/Nombre_Ususario"
+        android:layout_width="158dp"
+        android:layout_height="73dp"
+        android:text="Nombres: Ruzo Sanchez de la Cruz"
+        android:textAlignment="textStart"
+        android:textColor="#353535"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <Button
+        android:id="@+id/Recibir_ntf"
+        android:layout_width="216dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#294DFF"
+        android:text="Recibir notificaciones"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_popup_reminder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <TextView
+        android:id="@+id/dni"
+        android:layout_width="329dp"
+        android:layout_height="32dp"
+        android:text="DNI: 76685495"
+        android:textAlignment="textStart"
+        android:textColor="#353535"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/TIPO_ARTICULO"
+        android:layout_width="329dp"
+        android:layout_height="26dp"
+        android:text="Articulo: Laptop"
+        android:textAlignment="textStart"
+        android:textColor="#353535"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <TextView
+        android:id="@+id/MODELO_ARTICULO"
+        android:layout_width="329dp"
+        android:layout_height="26dp"
+        android:text="Modelo: Lenovo"
+        android:textAlignment="textStart"
+        android:textColor="#353535"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <TextView
+        android:id="@+id/NUMERO_DE_SERIE_ARTICULO"
+        android:layout_width="330dp"
+        android:layout_height="28dp"
+        android:text="N° de serie: B0022"
+        android:textAlignment="textStart"
+        android:textColor="#353535"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
+
+    <TextView
+        android:id="@+id/AVERIA_ARTICULO"
+        android:layout_width="329dp"
+        android:layout_height="26dp"
+        android:text="Avería:"
+        android:textAlignment="textStart"
+        android:textColor="#353535"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <TextView
+        android:id="@+id/SOLUCION_ARTICULO"
+        android:layout_width="329dp"
+        android:layout_height="26dp"
+        android:text="Solución:"
+        android:textAlignment="textStart"
+        android:textColor="#353535"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <TextView
+        android:id="@+id/NOTA_ARTICULO"
+        android:layout_width="325dp"
+        android:layout_height="66dp"
+        android:text="NOTA: \n"
+        android:textColor="#FF4141"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741" />
+
+    <TextView
+        android:id="@+id/TECNICO_REPARACION"
+        android:layout_width="329dp"
+        android:layout_height="26dp"
+        android:text="Tecnico:"
+        android:textColor="#0EFFF7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
+    <!--TECNICO_REPARACION-->
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="151dp"
+        android:layout_height="57dp"
+        android:text="Telefono: 456744564"
+        android:textAlignment="textStart"
+        android:textColor="#3C3C3C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <ImageView
+        android:id="@+id/LOGO_SID"
+        android:layout_width="79dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@mipmap/logotipo" />  <!--LOGO_SID-->
+
+    <!--ESTADO_REAPARACION-->
+
+    <!--Estado1-->
+
+    <!--Estado1-->
+
+    <!--Estado2-->
+
+    <!--Estado3-->
+
+
+
+    <TextView
+        android:id="@+id/Estado1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Articulo en espera"
+        android:textAlignment="center"
+        android:textColor="#FFF647"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/Estado2"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:text="Entró a reparación"
+        android:textAlignment="center"
+        android:textColor="#BBFF1C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237" />
+
+    <TextView
+        android:id="@+id/Estado3"
+        android:layout_width="167dp"
+        android:layout_height="52dp"
+        android:text="El equipo a sido reparado"
+        android:textAlignment="center"
+        android:textColor="#FFD645"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237" />
+
+    <TextView
+        android:id="@+id/Estado4"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
+        android:text="FINALIZADO"
+        android:textAlignment="center"
+        android:textColor="#44FF4B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="140dp"
+        android:layout_height="89dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@mipmap/impresora_icon"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/saldo"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:background="#C3FFFFFF"
+        android:text="00000"
+        android:textAlignment="center"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891" />
+
+    <TextView
+        android:id="@+id/a_cuenta"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:background="#C3FFFFFF"
+        android:text="00000"
+        android:textAlignment="center"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <TextView
+        android:id="@+id/tratado"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:background="#C3FFFFFF"
+        android:text="00000"
+        android:textAlignment="center"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <TextView
+        android:id="@+id/rthdrtyh"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="SALDO:"
+        android:textColor="#353535"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/rtghrt"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="TRATADO:"
+        android:textColor="#353535"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/dfghd"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="A CUENTA:"
+        android:textColor="#353535"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/sig3"
+        android:layout_width="18dp"
+        android:layout_height="29dp"
+        android:text="S/."
+        android:textColor="#353535"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <TextView
+        android:id="@+id/sig2"
+        android:layout_width="18dp"
+        android:layout_height="29dp"
+        android:text="S/."
+        android:textColor="#353535"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <TextView
+        android:id="@+id/sig"
+        android:layout_width="18dp"
+        android:layout_height="29dp"
+        android:text="S/."
+        android:textColor="#353535"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <TextView
+        android:id="@+id/FECHA"
+        android:layout_width="185dp"
+        android:layout_height="28dp"
+        android:text="FECHA:"
+        android:textAlignment="textStart"
+        android:textColor="#353535"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:id="@+id/HORA"
+        android:layout_width="185dp"
+        android:layout_height="28dp"
+        android:text="HORA:"
+        android:textAlignment="textStart"
+        android:textColor="#353535"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="221dp"
+        android:layout_height="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="GUIA ELECTRONICA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+    <!--Estado4-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

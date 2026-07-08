@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SID_SHARE</string>
+    <string-array name="ListaAveria">
+        <item>DISCO MECANICO DEGRADADO Y LENTO</item>
+        <item>POR VER</item>
+        <item>NINGUNO</item>
+        <item>EQUIPO LENTO</item>
+        <item>NO SALEN LOS COLORES</item>
+        <item>IMPRIME A RALLAS</item>
+        <item>NO FUNCIONA EL SCANNER</item>
+        <item>NO IMPRIME</item>
+        <item>ATASCO DE PAPEL</item>
+        <item>DIEZ</item>
+        <item>CONTADOR LLENO</item>
+    </string-array>
+
+    <string-array name="ListaSolucion">
+        <item>CAMBIO DE DISCO A SSD</item>
+        <item>CAMBIO DE DISCO A HDD</item>
+        <item>AUMENTO DE MEMORIA RAM DE 4</item>
+        <item>AUMENTO DE MEMORIA RAM DE 8</item>
+        <item>AUMENTO DE MEMORIA RAM DE 16</item>
+        <item>CAMBIO DE MEMORIA RAM DE 4</item>
+        <item>CAMBIO DE MEMORIA RAM DE 8</item>
+        <item>CAMBIO DE MEMORIA RAM DE 16</item>
+        <item>FORMATEO</item>
+        <item>FORMATEO CON RESPALDO</item>
+        <item>PURGA NORMAL</item>
+        <item>PURGA AVANZADA</item>
+        <item>LIMPIEZA DE CABEZAL</item>
+        <item>CAMBIO DE ALMOHADILLAS</item>
+        <item>CAMBIO DE ALMOHADILLAS Y RESET</item>
+        <item>RESET DE IMPRESORA</item>
+        <item>RESET DE IMPRESORA</item>
+    </string-array>
+</resources>

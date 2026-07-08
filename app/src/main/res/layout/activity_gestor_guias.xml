@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".gestor_guias">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="755dp"
+        android:layout_height="1400dp"
+        android:layout_marginTop="-600dp"
+        android:layout_marginBottom="-600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478"
+        app:srcCompat="@mipmap/fondo2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="119dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/logotipo" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="230dp"
+        android:layout_height="42dp"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701" />
+
+    <CheckBox
+        android:id="@+id/checkBox_mi_nombre"
+        android:layout_width="339dp"
+        android:layout_height="44dp"
+        android:background="#A4002AFF"
+        android:checked="true"
+        android:color="#00CCFF"
+        android:text="SOLO FILTRAR GUIAS QUE ESTÉN A MI NOMBRE "
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:buttonTint="#00CCFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <CheckBox
+        android:id="@+id/checkBox_finalizadas"
+        android:layout_width="339dp"
+        android:layout_height="44dp"
+        android:background="#A400C4FF"
+        android:checked="true"
+        android:color="#00CCFF"
+        android:text="SOLO FILTRAR GUIAS QUE NO ESTÉ FINALIZADA"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:buttonTint="#00CCFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="221dp"
+        android:layout_height="39dp"
+        android:background="#1C1C1C"
+        android:ems="10"
+        android:hint="INGRESE LA ID..."
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#ACACAC"
+        android:textColorHint="#AAAAAA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <TextView
+        android:id="@+id/textVieefew4"
+        android:layout_width="221dp"
+        android:layout_height="36dp"
+        android:text="Busqueda Avanzada:"
+        android:textColor="#606060"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="219dp"
+        android:layout_height="47dp"
+        android:text="Busqueda por ID:"
+        android:textColor="#606060"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <Button
+        android:id="@+id/editar_guia_base"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#0800FF"
+        android:text="Editar"
+        android:textColor="#FFFFFF"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801" />
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#03E2FF"
+        android:text="Buscar"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_search_category_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <Button
+        android:id="@+id/editar_guia_central"
+        android:layout_width="125dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#00D68B"
+        android:text="Editar guia"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

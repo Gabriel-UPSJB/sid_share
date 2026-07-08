@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".crear_guia_rep">
+    <!--fondo-->
+
+    <!--fondo_tipo_laptop-->
+
+    <!--ID_GIA-->
+
+    <!--CANCELAR_PEDIDO-->
+
+    <!--SubFondo-->
+
+    <!--Nombre_Ususario-->
+
+    <!--TIPO_ARTICULO-->
+
+    <!--MODELO_ARTICULO-->
+
+    <!--NUMERO_DE_SERIE_ARTICULO-->
+
+    <!--AVERIA_ARTICULO-->
+
+    <!--SOLUCION_ARTICULO-->
+
+    <!--NOTA_ARTICULO-->
+
+    <!--TECNICO_REPARACION-->
+
+    <!--LOGO_SID-->
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="484dp"
+        android:layout_height="988dp"
+        android:layout_marginStart="-300dp"
+        android:layout_marginTop="-160dp"
+        android:layout_marginEnd="-300dp"
+        android:layout_marginBottom="-200dp"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:cropToPadding="false"
+        android:fadeScrollbars="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31"
+        app:srcCompat="@drawable/gemini_generated_image_mp4l4smp4l4smp4l" />
+
+    <TextView
+        android:id="@+id/ID_GIA"
+        android:layout_width="118dp"
+        android:layout_height="23dp"
+        android:text="00000000"
+        android:textAlignment="center"
+        android:textColor="#252525"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:layout_width="118dp"
+        android:layout_height="23dp"
+        android:text="ID"
+        android:textAlignment="center"
+        android:textColor="#252525"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:layout_width="118dp"
+        android:layout_height="23dp"
+        android:text="FECHA"
+        android:textAlignment="center"
+        android:textColor="#252525"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:id="@+id/FECHA"
+        android:layout_width="118dp"
+        android:layout_height="23dp"
+        android:text="00000000"
+        android:textAlignment="center"
+        android:textColor="#252525"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <ImageView
+        android:id="@+id/SubFondo"
+        android:layout_width="148dp"
+        android:layout_height="114dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_light_normal_background" />
+
+    <ImageView
+        android:id="@+id/subFondo"
+        android:layout_width="359dp"
+        android:layout_height="687dp"
+        android:background="#E0FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/SubFondo2"
+        android:layout_width="396dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <TextView
+        android:id="@+id/Nombre_Ususariojj"
+        android:layout_width="103dp"
+        android:layout_height="30dp"
+        android:text="DNI:"
+        android:textAlignment="textStart"
+        android:textColor="#434343"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <TextView
+        android:id="@+id/TECNICO_REPARACION"
+        android:layout_width="113dp"
+        android:layout_height="29dp"
+        android:text="Tecnico:"
+        android:textColor="#313131"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <TextView
+        android:id="@+id/WEEWEEW"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="TRATADO:"
+        android:textColor="#313131"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/rtywerttsrt"
+        android:layout_width="138dp"
+        android:layout_height="22dp"
+        android:text="ID DE ADELANTO:"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:id="@+id/SDSD"
+        android:layout_width="18dp"
+        android:layout_height="29dp"
+        android:text="S/."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <TextView
+        android:id="@+id/sig2"
+        android:layout_width="18dp"
+        android:layout_height="29dp"
+        android:text="S/."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <TextView
+        android:id="@+id/sig3"
+        android:layout_width="18dp"
+        android:layout_height="29dp"
+        android:text="S/."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <TextView
+        android:id="@+id/dfghd"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="A CUENTA:"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/rthdrtyh"
+        android:layout_width="95dp"
+        android:layout_height="23dp"
+        android:text="SALDO:"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/saldo"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:background="#C3FFFFFF"
+        android:text="00000"
+        android:textAlignment="center"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <ImageView
+        android:id="@+id/LOGO_SID"
+        android:layout_width="80dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@mipmap/logotipo" />
+
+    <!--ESTADO_REAPARACION-->
+
+    <!--Estado1-->
+
+    <!--Estado1-->
+
+    <!--Estado2-->
+
+    <!--Estado3-->
+
+    <SeekBar
+        android:id="@+id/ESTADO_REAPARACION"
+        android:layout_width="357dp"
+        android:layout_height="28dp"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="#FFFFFF"
+        android:thumb="@android:drawable/presence_online"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <TextView
+        android:id="@+id/Estado1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Articulo en espera"
+        android:textAlignment="center"
+        android:textColor="#D6FA651A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:id="@+id/Estado2"
+        android:layout_width="133dp"
+        android:layout_height="52dp"
+        android:text="Entró a reparación"
+        android:textAlignment="center"
+        android:textColor="#D637DC97"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <TextView
+        android:id="@+id/Estado3"
+        android:layout_width="167dp"
+        android:layout_height="52dp"
+        android:text="El equipo a sido reparado"
+        android:textAlignment="center"
+        android:textColor="#D61ACDFA"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <TextView
+        android:id="@+id/Estado4"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
+        android:text="FINALIZADO"
+        android:textAlignment="center"
+        android:textColor="#D61AA6FA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="117dp"
+        android:layout_height="90dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@mipmap/impresora_icon"
+        tools:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/Trabajadores"
+        android:layout_width="204dp"
+        android:layout_height="27dp"
+        android:background="#D3FF1241"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801" />
+
+    <Spinner
+        android:id="@+id/Tipo_comprobante"
+        android:layout_width="52dp"
+        android:layout_height="31dp"
+        android:background="#D3FF1241"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="212dp"
+        android:layout_height="26dp"
+        android:background="#D34187FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado de reparación"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <EditText
+        android:id="@+id/nombre_camp"
+        android:layout_width="221dp"
+        android:layout_height="35dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#202020"
+        android:ems="10"
+        android:foregroundTint="#4DFFFFFF"
+        android:inputType="text"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#CC0000"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#303030"
+        android:textColorHint="#000000"
+        android:textColorLink="#1B1B1B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/Nombre_Ususariojhj"
+        android:layout_width="103dp"
+        android:layout_height="30dp"
+        android:text="Nombres:"
+        android:textAlignment="textStart"
+        android:textColor="#313131"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <TextView
+        android:id="@+id/TIPO_ARTICULO"
+        android:layout_width="82dp"
+        android:layout_height="34dp"
+        android:text="Articulo:"
+        android:textAlignment="textStart"
+        android:textColor="#313131"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <TextView
+        android:id="@+id/MODELO_ARTICULO"
+        android:layout_width="106dp"
+        android:layout_height="36dp"
+        android:text="Modelo:"
+        android:textAlignment="textStart"
+        android:textColor="#313131"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <TextView
+        android:id="@+id/NUMERO_DE_SERIE_ARTICULO"
+        android:layout_width="106dp"
+        android:layout_height="28dp"
+        android:text="N° de serie:"
+        android:textAlignment="textStart"
+        android:textColor="#313131"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <TextView
+        android:id="@+id/AVERIA_ARTICULO"
+        android:layout_width="105dp"
+        android:layout_height="32dp"
+        android:text="Avería:"
+        android:textAlignment="textStart"
+        android:textColor="#313131"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <TextView
+        android:id="@+id/SOLUCION_ARTICULOtell"
+        android:layout_width="103dp"
+        android:layout_height="34dp"
+        android:text="Telefono:"
+        android:textAlignment="textStart"
+        android:textColor="#313131"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <TextView
+        android:id="@+id/SOLUCION_ARTICULO"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:text="Solución:"
+        android:textAlignment="textStart"
+        android:textColor="#313131"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <TextView
+        android:id="@+id/NOTA_ARTICULO"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:text="NOTA:"
+        android:textAlignment="textStart"
+        android:textColor="#FF4141"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <EditText
+        android:id="@+id/nota_camp"
+        android:layout_width="214dp"
+        android:layout_height="30dp"
+        android:background="#1C1C1C"
+        android:drawableTint="#515151"
+        android:ems="10"
+        android:foregroundTint="#4DAAAAAA"
+        android:inputType="text"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#393939"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#303030"
+        android:textColorHint="#000000"
+        android:textColorLink="#151515"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+    <EditText
+        android:id="@+id/tratado"
+        android:layout_width="95dp"
+        android:layout_height="36dp"
+        android:background="#090909"
+        android:backgroundTint="#F0EFEFEF"
+        android:drawableTint="#000000"
+        android:ems="10"
+        android:foregroundTint="#000000"
+        android:inputType="number"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#870202"
+        android:text="0"
+        android:textAlignment="textStart"
+        android:textColor="#35452B"
+        android:textColorHighlight="#303030"
+        android:textColorHint="#000000"
+        android:textColorLink="#1B1B1B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <EditText
+        android:id="@+id/Adelanto"
+        android:layout_width="95dp"
+        android:layout_height="36dp"
+        android:background="#090909"
+        android:backgroundTint="#F0EFEFEF"
+        android:drawableTint="#000000"
+        android:ems="10"
+        android:foregroundTint="#000000"
+        android:inputType="number"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#870202"
+        android:text=""
+        android:textAlignment="textStart"
+        android:textColor="#35452B"
+        android:textColorHighlight="#303030"
+        android:textColorHint="#000000"
+        android:textColorLink="#1B1B1B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981" />
+
+    <EditText
+        android:id="@+id/a_cuenta"
+        android:layout_width="108dp"
+        android:layout_height="35dp"
+        android:background="#090909"
+        android:backgroundTint="#F0EFEFEF"
+        android:drawableTint="#000000"
+        android:ems="10"
+        android:foregroundTint="#000000"
+        android:inputType="number"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#870202"
+        android:text="0"
+        android:textAlignment="textStart"
+        android:textColor="#35452B"
+        android:textColorHighlight="#303030"
+        android:textColorHint="#000000"
+        android:textColorLink="#1B1B1B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <EditText
+        android:id="@+id/telefono_camp"
+        android:layout_width="216dp"
+        android:layout_height="31dp"
+        android:background="#000000"
+        android:backgroundTint="#1C1C1C"
+        android:drawableTint="#000000"
+        android:ems="10"
+        android:foregroundTint="#4DAAAAAA"
+        android:inputType="number"
+        android:lineSpacingExtra="8sp"
+        android:maxLength="9"
+        android:shadowColor="#CC0000"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#303030"
+        android:textColorHint="#000000"
+        android:textColorLink="#1B1B1B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <EditText
+        android:id="@+id/nroserie_camp"
+        android:layout_width="215dp"
+        android:layout_height="31dp"
+        android:background="#000000"
+        android:backgroundTint="#1C1C1C"
+        android:drawableTint="#000000"
+        android:ems="10"
+        android:foregroundTint="#4DAAAAAA"
+        android:inputType="text"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#CC0000"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#303030"
+        android:textColorHint="#000000"
+        android:textColorLink="#1B1B1B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <EditText
+        android:id="@+id/modelo_camp"
+        android:layout_width="213dp"
+        android:layout_height="31dp"
+        android:background="#000000"
+        android:backgroundTint="#1C1C1C"
+        android:drawableTint="#000000"
+        android:ems="10"
+        android:foregroundTint="#4DAAAAAA"
+        android:inputType="text"
+        android:lineSpacingExtra="8sp"
+        android:shadowColor="#CC0000"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#303030"
+        android:textColorHint="#000000"
+        android:textColorLink="#1B1B1B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
+
+    <EditText
+        android:id="@+id/dni_camp"
+        android:layout_width="117dp"
+        android:layout_height="36dp"
+        android:background="#000000"
+        android:backgroundTint="@color/white"
+        android:drawableTint="#000000"
+        android:ems="10"
+        android:foreground="@android:drawable/editbox_background"
+        android:foregroundTint="#4DAAAAAA"
+        android:inputType="number"
+        android:lineSpacingExtra="8sp"
+        android:maxLength="8"
+        android:shadowColor="#CC0000"
+        android:textAlignment="textStart"
+        android:textColor="#081EE6"
+        android:textColorHighlight="#303030"
+        android:textColorHint="#000000"
+        android:textColorLink="#1B1B1B"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="193dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#A408FFEA"
+        android:text="Crear guia electronica"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#932020"
+        android:textColorHint="#0B0B0B"
+        android:textColorLink="#FF1818"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <Button
+        android:id="@+id/buscar_por_dni"
+        android:layout_width="115dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#ED2424"
+        android:text="Buscar"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <AutoCompleteTextView
+        android:id="@+id/averia_camp"
+        android:layout_width="191dp"
+        android:layout_height="36dp"
+        android:background="#222222"
+        android:backgroundTint="#222222"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <AutoCompleteTextView
+        android:id="@+id/solucion_camp"
+        android:layout_width="211dp"
+        android:layout_height="34dp"
+        android:background="#222222"
+        android:backgroundTint="#222222"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <!--Estado4-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

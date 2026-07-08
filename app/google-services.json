@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "507256386232",
+    "project_id": "sidshare-40014",
+    "storage_bucket": "sidshare-40014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507256386232:android:78fdc38af1b839f9f0ba4d",
+        "android_client_info": {
+          "package_name": "com.froggame.sid_share"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAR647blaB84sy9INv4zrCxrrwhq2vmIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
