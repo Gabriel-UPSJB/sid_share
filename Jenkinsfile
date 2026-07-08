@@ -5,8 +5,8 @@ node {
     }
 
     stage('4.3. Automatización de Builds/Pruebas') {
-        // Envolvemos la ruta con comillas dobles para que el espacio en el nombre no rompa el directorio
-        bat 'echo sdk.dir="C:/Users/Gabriel Alvarado/AppData/Local/Android/Sdk" > local.properties'
+        // Usamos barras invertidas dobles y SIN comillas para evitar el error de sintaxis de Windows
+        bat 'echo sdk.dir=C:\\\\Users\\\\Gabriel Alvarado\\\\AppData\\\\Local\\\\Android\\\\Sdk > local.properties'
         bat 'gradlew.bat clean assembleDebug testDebugUnitTest'
     }
 
