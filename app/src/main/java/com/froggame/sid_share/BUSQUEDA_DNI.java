@@ -52,9 +52,10 @@ public class BUSQUEDA_DNI extends AppCompatActivity
 
         ProgressDialog dialog = new ProgressDialog(this);
 
-
         List<String> Descripcion = new ArrayList<>();
         List<String> IDS = new ArrayList<>();
+
+
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(BUSQUEDA_DNI.this, android.R.layout.simple_spinner_item, Descripcion);
 
         Bsucar.setOnClickListener(new View.OnClickListener()
