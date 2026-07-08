@@ -11,10 +11,10 @@ pipeline {
 
         stage('4.3. Automatización de Builds y Pruebas') {
             steps {
-                // Configura la ruta del SDK de Android en el servidor local
-                bat 'echo sdk.dir=C:\\\\Sdk > local.properties'
+                // Quitamos el espacio antes del '>' para evitar el espacio en blanco al final de la ruta
+                bat 'echo sdk.dir=C:\\\\Sdk> local.properties'
                 
-                // Compila la aplicación omitiendo las pruebas unitarias que daban error
+                // Compila la aplicación omitiendo las pruebas unitarias
                 bat 'gradlew.bat clean assembleDebug -x testDebugUnitTest'
             }
         }
