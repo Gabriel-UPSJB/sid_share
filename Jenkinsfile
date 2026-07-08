@@ -5,8 +5,8 @@ node {
     }
 
     stage('4.3. Automatización de Builds/Pruebas') {
-        // Ejecución directa en sintaxis Scripted (sin envoltorio 'steps')
-        bat 'echo sdk.dir=C:/Users/Gabriel Alvarado/AppData/Local/Android/Sdk > local.properties'
+        // Envolvemos la ruta con comillas dobles para que el espacio en el nombre no rompa el directorio
+        bat 'echo sdk.dir="C:/Users/Gabriel Alvarado/AppData/Local/Android/Sdk" > local.properties'
         bat 'gradlew.bat clean assembleDebug testDebugUnitTest'
     }
 
