@@ -5,11 +5,10 @@ node {
     }
 
     stage('4.3. Automatización de Builds/Pruebas') {
-        // Apuntamos a la nueva ruta pública libre de restricciones de Windows
-        bat 'echo sdk.dir=C:\\\\Sdk > local.properties'
+        // Los paréntesis aseguran que NO se inyecte ningún espacio oculto al final de la ruta
+        bat '(echo sdk.dir=C:\\\\Sdk)>local.properties'
         bat 'gradlew.bat clean assembleDebug testDebugUnitTest'
     }
-
     stage('4.4. & 4.5. Análisis Estático y Métricas (SonarQube)') {
         def scannerHome = tool 'SonarScanner'
         
