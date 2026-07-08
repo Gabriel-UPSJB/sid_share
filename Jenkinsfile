@@ -5,8 +5,14 @@ node {
     }
 
     stage('4.3. Automatización de Builds/Pruebas') {
-        bat "gradlew.bat clean assembleDebug testDebugUnitTest"
+    steps {
+        // Obligamos a crear el archivo local.properties usando comillas dobles para escapar espacios
+        bat 'echo sdk.dir=C:/Users/Gabriel Alvarado/AppData/Local/Android/Sdk > local.properties'
+        
+        // Ejecutamos la compilación
+        bat 'gradlew.bat clean assembleDebug testDebugUnitTest'
     }
+}
 
     stage('4.4. & 4.5. Análisis Estático y Métricas (SonarQube)') {
         def scannerHome = tool 'SonarScanner'
