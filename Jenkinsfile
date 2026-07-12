@@ -23,9 +23,9 @@ pipeline {
             steps {
                 // Ejecuta el análisis estático y lo sube directamente usando tu token
                 bat 'gradlew.bat sonar ' +
-                    '-Dsonar.projectKey=sid_share ' +
+                    '-Dsonar.projectKey=sid_share_test_realtime ' +
                     '-Dsonar.host.url=http://localhost:9000 ' +
-                    '-Dsonar.token=sqp_9433ea46c1ae8e1b2f9319e8bd5d4e04a02f0288' 
+                    '-Dsonar.token=sqp_fc5d889e59ecb07422266180982b56735e6719b4' 
             }
         }
     }
